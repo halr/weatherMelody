@@ -1,5 +1,5 @@
 /**
- * This sketch  accesses the ITP Weather Band's database and get weather data.
+ * This sketch accesses the ITP Weather Band's database and get weather data.
  * 
  * Board: Arduino SAMD Boards: Arduino MKR 1000
  */

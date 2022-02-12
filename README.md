@@ -1,12 +1,13 @@
 # Weather Melody
-*description coming soon*
-
-## To Do
-These are short term to dos.
-- [ ] [Convert Scientific Data into Synthesized Music](https://makezine.com/projects/synthesized-music-data/)
-- [ ] watch [Art from data TED playlist](https://www.ted.com/playlists/201/art_from_data)
-- [ ] format this doc in the suggested Arduino style
-- [ ] Add timbre exploration by incorporating pressure data and processing it in Max.
+*description coming soon, link to blog post...*
+* *arduino_secrets.h* — required, but not included in this repo. You will need create one of your own with the following format:
+  ```C++
+  //arduino_secrets.h
+  char ssid[] = "your network's name";             // network SSID (name)
+  char pass[] = "your network password"; // network password (use for WPA, or use as key for WEP)
+  int keyIndex = 0;                     // network key Index number (needed only for WEP)
+  ```
+* weatherMelody.ino — the Arduino sketch
 
 ## Arduino Libraries
 * [WiFi101](https://www.arduino.cc/en/Reference/WiFi101)
@@ -39,3 +40,8 @@ A data frame [fetched by id](http://weatherband.itp.io:3000/data/id/31) from the
 }
 ```
 
+## Assemble the circuit
+*coming soon...*
+
+## Contributing
+To contribute to this project please contact [Amped Atelier](ampedatelier@gmail.com).
